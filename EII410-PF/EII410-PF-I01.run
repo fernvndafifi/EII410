@@ -1,0 +1,16 @@
+#Archivo RUN, Proyecto Final EII410 (Instancia E8_1_10_20)
+
+model EII410-PF.mod;
+data EII410-PF-I01.dat;
+
+problem Costos: FO,X,Y,u,delivery_clients_visited,collection_clients_visited,subtour_elimination,infeasible_tour,packets_transportation,vehicle_capacity_lower,vehicle_capacity_upper,no_multiple_arcs_incoming;
+option solver CPLEX;
+option cplex_option 'timing=1 integrality=0 mipgap=0 clocktype 1';
+option show_stats 1;
+option relax_integrality 0;
+option times 1;
+
+solve Costos;
+
+display FO;
+display X,Y,u;
