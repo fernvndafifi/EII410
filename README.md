@@ -1,6 +1,6 @@
 # Proyecto Final - Investigación de Operaciones
 
-Este repositorio contiene el proyecto final realizado para el curso **Investigación de Operaciones**, basado en el artículo de los profesores Gutiérrez, Marianov y Obreque, llamado **"A single vehicle routing problem with fixed delivery and optional collections"**.
+Este repositorio contiene el proyecto final realizado para el curso **Investigación de Operaciones**, basado en el artículo de los profesores Gabriel Gutiérrez, Vladimir Marianov y Carlos Obreque, llamado **"A single vehicle routing problem with fixed delivery and optional collections"**.
 
 ## Descripción
 
